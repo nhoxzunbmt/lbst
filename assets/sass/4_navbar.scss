@@ -13,6 +13,7 @@
   min-height: $navbar-height; // Ensure a navbar always shows (e.g., without a .navbar-brand in collapsed mode)
   margin-bottom: $navbar-margin-bottom;
   border: 1px solid transparent;
+  text-transform: uppercase;
 
   // Prevent floats from breaking the navbar
   @include clearfix;
@@ -545,7 +546,7 @@
     > a {
       position: relative;
       display: block;
-      padding: 10px 39px;
+      padding: 10px 40px;
       &:hover,
       &:focus {
         text-decoration: none;

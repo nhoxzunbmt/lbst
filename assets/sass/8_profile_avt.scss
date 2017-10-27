@@ -1,28 +1,44 @@
-.profile-avt
-{
+.profile-avt {
 
   text-align: center;
-  border:1px solid #000;
+  border: 1px solid #000;
   background-color: #FFF;
-  .avt-img
-  {
-      max-height: 200px;
+  font-size: 28px;
+
+  .avt-img {
+    max-height: 380px;
     position: relative;
   }
-  .author-name
+  .profile-body
   {
-    position: absolute;
-    left: 0;
-    bottom: -20px;
-    padding: 10px 20px;
-    background-color: #FFF;
+    position: relative;
+    display: block;
+    float: left;
+    width: 100%;
+
+
+    .author-name {
+      position: absolute;
+      left: 35%;
+      top: -50px;
+      padding: 30px 30px 0 30px;
+      background-color: #FFF;
+    }
+    .author-desc {
+      padding: 30px;
+      font-family: 'Open Sans Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-size: 18px;
+      line-height: 30px;
+
+      margin: 0 auto;
+      display: block;
+
+
+    }
+    .author-link {
+      text-decoration: underline;
+      font-size: 20px;
+    }
   }
-  .author-desc
-  {
-    padding: 30px;
-  }
-  .author-link
-  {
-    text-decoration: underline;
-  }
+
 }

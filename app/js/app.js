@@ -73,9 +73,8 @@ module.exports = __webpack_require__(2);
 
 /***/ }),
 /* 1 */
-/***/ (function(module, __webpack_exports__) {
+/***/ (function(module, exports) {
 
-"use strict";
 $('#backtotop').click(function (e) {
     e.preventDefault();
     $('html, body').animate({

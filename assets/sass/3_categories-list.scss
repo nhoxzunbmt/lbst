@@ -1,8 +1,9 @@
 .categories-block {
   .categories-list {
     width: 100%;
+    font-family: 'Open Sans Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     .categories-title {
-
+      font-weight: bold;
     }
     li {
       width: 46%;
@@ -11,8 +12,8 @@
       a {
         width: 100%;
         float: left;
-        border: 1px solid #000;
-        padding: 10px 10px;
+        border: 2px solid #000;
+        padding: 35px 10px;
         text-align: center;
       }
     }

@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Open Sans Light';
+  font-style: normal;
+  font-weight: 300;
+  src:url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTRa1RVmPjeKy21_GQJaLlJI.woff) format('woff');
+}
 // Global styling for this template
 body {
   font-size: 20px;
@@ -102,9 +108,38 @@ ul
 
 .sidebar-hr
 {
-  border:1px solid #000;
+  border-top:2px solid #000;
   width: 100%;
   display: block;
   float:left;
   height: 1px;
+  margin: 40px 0;
+}
+
+.logo
+{
+  width: 180px;
+  margin-top: 47px;
+  margin-bottom: 34px;
+}
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none
+}
+
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev, .carousel-control .icon-next {
+  width: 20px;
+  height: 30px;
+  font-size: 25px;
+}
+
+.content-left
+{
+  width: 730px;
+}
+
+.content-right
+{
+  width: 315px;
 }

@@ -1,0 +1,42 @@
+.article-list
+{
+  font-family: 'Open Sans Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding-bottom: 42px;
+  float: left;
+  width: 100%;
+  display: block;
+
+  .list-header
+  {
+    margin-bottom: 31px;
+    .list-title
+    {
+      font-weight: bold;
+      font-size: 23px;
+      font-family: 'Roboto Slab Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+    .see-all
+    {
+      text-decoration: underline;
+      font-family: 'Open Sans Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+    }
+  }
+
+
+  .title
+  {
+    font-family: 'Roboto Slab Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 23px 0 9px 0;
+  }
+  .desc{
+    font-size: 14px;
+  }
+  .date-comment
+  {
+    margin-bottom: 24px;
+    font-size: 13px;
+  }
+}

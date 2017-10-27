@@ -22,5 +22,5 @@ mix.options({processCssUrls: false});
 mix.sass('assets/sass/app.scss', 'app/css');
 mix.js('assets/js/app.js', 'app/js');
 mix.copy('node_modules/bootstrap-sass/assets/fonts', 'app/fonts', false);
-// mix.copy('assets/images', 'app/images', false);
+mix.copy('assets/images', 'app/images', false);
 mix.copy('assets/fonts', 'app/fonts', false);

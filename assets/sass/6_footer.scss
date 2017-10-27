@@ -1,0 +1,32 @@
+#footer
+{
+  background-color: #F6F6F6;
+  font-family: 'Open Sans Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+  .footer-nav
+  {
+    padding: 38px 0 32px 0;
+
+    li
+    {
+      float:left;
+      a{
+        padding-right: 33px;
+        font-size:12px;
+
+      }
+    }
+    .footer-nav-list
+    {
+      margin:0 auto;
+    }
+  }
+  .copyright
+  {
+    p{
+      margin: 20px 0 15px 0;
+      font-size: 8px;
+    }
+
+  }
+}
