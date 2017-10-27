@@ -1,0 +1,23 @@
+// Fonts
+//@import "_fonts";
+
+
+// Bootstrap
+//@import "_variables_bootstrap_overrides.scss";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+//@import "_bootstrap-overrides.scss";
+
+@import "variables.scss";
+@import "mixins.scss";
+@import "global.scss";
+
+@import "1_social_list.scss";
+@import "2_tags_list.scss";
+@import "3_categories-list.scss";
+@import "4_navbar.scss";
+@import "5_contact.scss";
+@import "6_footer.scss";
+@import "7_post.scss";
+@import "8_profile_avt.scss";
+@import "9_scroll_top.scss";
+@import "10_main-content.scss";

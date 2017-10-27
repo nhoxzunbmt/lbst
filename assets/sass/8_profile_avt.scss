@@ -1,0 +1,28 @@
+.profile-avt
+{
+
+  text-align: center;
+  border:1px solid #000;
+  background-color: #FFF;
+  .avt-img
+  {
+      max-height: 200px;
+    position: relative;
+  }
+  .author-name
+  {
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    padding: 10px 20px;
+    background-color: #FFF;
+  }
+  .author-desc
+  {
+    padding: 30px;
+  }
+  .author-link
+  {
+    text-decoration: underline;
+  }
+}
