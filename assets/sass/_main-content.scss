@@ -1,0 +1,44 @@
+.main-content {
+  position: relative;
+  padding-top: 175px;
+  .title-blog {
+    position: absolute;
+    top: -45px;
+    left: 35%;
+    background-color: #FFF;
+    padding: 20px 20px;
+  }
+  .content-detail
+  {
+    h3{
+      font-size:16px;
+    }
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .main-content {
+    padding-top: 0;
+
+    .title-desc
+    {
+      font-size: 17px;
+    }
+
+    .title-blog {
+      position: relative;
+      padding: 0;
+      top:inherit;
+      left: inherit;
+      margin-top: 41px;
+    }
+    .content-detail
+    {
+      h3{
+        font-size:16px;
+      }
+    }
+  }
+}

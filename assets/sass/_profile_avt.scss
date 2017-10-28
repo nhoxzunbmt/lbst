@@ -1,0 +1,49 @@
+.profile-avt {
+
+  text-align: center;
+  border: 1px solid #000;
+  background-color: #FFF;
+  font-size: 28px;
+  display: block;
+  float: left;
+  padding-bottom: 14px;
+
+  .avt-img {
+    max-height: 380px;
+    position: relative;
+    img {
+      width: 100%;
+    }
+  }
+  .profile-body {
+    position: relative;
+    display: block;
+    float: left;
+    width: 100%;
+
+    .author-name {
+      position: absolute;
+      left: 32%;
+      top: -50px;
+      padding: 10px;
+      background-color: #FFF;
+      width: 128px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .author-desc {
+      padding: 30px 30px 0 30px;
+      font-size: 18px;
+      line-height: 30px;
+
+      margin: 0 auto;
+      display: block;
+
+    }
+    .author-link {
+      text-decoration: underline;
+      font-size: 20px;
+    }
+  }
+
+}

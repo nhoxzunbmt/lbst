@@ -1,0 +1,22 @@
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  height: 35px;
+  width: 35px;
+  background: #FFF;
+  border:1px solid #000;
+  color: #fff;
+  font-size: 1.7142857143em;
+  text-align: center;
+  z-index: 9;
+
+  .arrow{
+    background: url(../images/back_to_top.png) no-repeat center;
+    width: 25px;
+    height: 33px;
+    display: block;
+    margin: 0 auto;
+  
+  }
+}

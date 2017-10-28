@@ -1,6 +1,6 @@
 .article-list
 {
-  font-family: 'Open Sans Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  @include serif-font();
   padding-bottom: 42px;
   float: left;
   width: 100%;
@@ -13,20 +13,16 @@
     {
       font-weight: bold;
       font-size: 23px;
-      font-family: 'Roboto Slab Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
     }
     .see-all
     {
       text-decoration: underline;
-      font-family: 'Open Sans Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-
+      @include serif-font();
     }
   }
-
-
   .title
   {
-    font-family: 'Roboto Slab Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-weight: bold;
     margin: 23px 0 9px 0;

@@ -1,0 +1,60 @@
+.social-list {
+  .socialbox {
+    font-weight: 300;
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: $main-color;
+    padding: 10px 15px;
+    width: 46%;
+    margin: 2%;
+
+    background-color: $main-bg-color;
+    border: 1px solid #000;
+
+    .social-icon {
+      font-size: 30px;
+      display: inline-block;
+      vertical-align: middle;
+      color: $main-color;
+      float: left;
+
+    }
+    .description {
+      display: block;
+      vertical-align: middle;
+      padding-left: 5px;
+      font-size: 12px;
+      float: left;
+      span {
+        display: block;
+        line-height: 16px;
+        font-size: 16px;
+        padding-left: 10px;
+        padding-top: 15px;
+      }
+    }
+
+    .facebook {
+      -webkit-transition: background-color 0.25s ease-in-out;
+      transition: background-color 0.25s ease-in-out;
+    }
+    .twitter {
+      background-color: $main-bg-color;
+      -webkit-transition: background-color 0.25s ease-in-out;
+      transition: background-color 0.25s ease-in-out;
+    }
+    .pinterest {
+      background-color: $main-bg-color;
+      -webkit-transition: background-color 0.25s ease-in-out;
+      transition: background-color 0.25s ease-in-out;
+    }
+    .linkedin {
+      background-color: $main-bg-color;
+      -webkit-transition: background-color 0.25s ease-in-out;
+      transition: background-color 0.25s ease-in-out;
+    }
+
+  }
+}
+

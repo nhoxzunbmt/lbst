@@ -1,0 +1,81 @@
+.btn-next
+{
+  height: 44px;
+  text-align: left;
+  padding: 10px 10px 10px 17px;
+  background: url("../images/btn_next.png") no-repeat;
+  color:#FFF;
+  @include roboto-slab-serif-font();
+  font-size: 16px;
+  font-weight: bold;
+  width: 180px;
+  margin-bottom: 44px;
+  &:hover
+  {
+    color:#FFF;
+
+
+  }
+  .arrow
+  {
+    background: url("../images/arrow_btn_next.png") no-repeat;
+    width: 12px;
+    height: 22px;
+    display: block;
+    float:right;
+  }
+  @media (max-width: $screen-sm) {
+    .btn-next
+    {
+      float:left !important;
+    }
+  }
+}
+.btn
+{
+  background-color: #FFF;
+}
+.btn-eff {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+
+  padding: 20px;
+  border: 2px solid #f7f7f7;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+.btn-eff:after {
+  position: absolute;
+  -webkit-transition: .3s;
+  transition: .3s;
+  content: '';
+  width: 0;
+  left: 50%;
+  bottom: 0;
+  height: 3px;
+  background: #000;
+}
+.btn-eff-4:after {
+  left: 0;
+  bottom: auto;
+  top: -3px;
+  width: 100%;
+}
+.btn-eff:hover {
+  cursor: pointer;
+}
+.btn-eff:hover:after {
+  width: 100%;
+  left: 0;
+}
+.btn-eff-4:hover:after {
+  top: calc(100% - 3px);
+}
+
+

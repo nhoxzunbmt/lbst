@@ -1,0 +1,21 @@
+.comment-block {
+  border: 2px solid #000;
+  padding: 60px 55px;
+
+  input, textarea, button {
+    border: 1px solid #000;
+    border-radius: 0;
+
+  }
+  .comment-title {
+    color: #000;
+    font-weight: bold;
+  }
+  label {
+    font-size: 13px;
+    font-weight: inherit;
+    color: #000;
+  }
+}
+
+

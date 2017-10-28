@@ -1,3 +1,5 @@
+
+
 $('#backtotop').click(function (e) {
     e.preventDefault();
     $('html, body').animate({
@@ -12,5 +14,8 @@ $(window).scroll(function () {
         $('.back-to-top').slideUp();
     }
 });
+
+
+
 
 
